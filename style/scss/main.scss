@@ -4,10 +4,35 @@ body {
    background:$DarkPurple;
 }
 
+#wrapper {
+   padding-top:10%;
+}
+
 h1 {
    text-align: center;
-   margin-top: 20%;
    font-family: 'Poppins', sans-serif;
-   color:#FFF;
+   color:$LightPurple;
    font-size:2.5em;
+}
+
+#logo {
+   width:80%;
+   margin:auto;
+   display:block;
+}
+
+#social-media {
+   text-align: center;
+
+   a {
+      position: relative;
+      display: inline-block;
+   }
+
+   .facebook, .instagram, .youtube {
+      width:50px;
+      height:50px;
+      padding:50px 20px;
+      display:inline-block;
+   }
 }
