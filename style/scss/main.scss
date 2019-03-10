@@ -4,8 +4,8 @@ body {
    background:$DarkPurple;
 }
 
-#wrapper {
-   padding-top:10%;
+.panel.main {
+   padding-top:7%;
 }
 
 #logo {
@@ -13,6 +13,20 @@ body {
    max-width:900px;
    margin:auto;
    display:block;
+}
+
+#logo-mobile {
+   display: none;
+}
+
+#logo-mobile img {
+   width:95%;
+   margin:auto;
+   display:block;
+}
+
+.study {
+   width:85% !important;
 }
 
 #media {
@@ -28,5 +42,15 @@ body {
       height:50px;
       padding:50px 20px;
       display:inline-block !important;
+   }
+}
+
+@media screen and (max-width:480px) {
+   #logo-mobile {
+      display:block;
+   }
+
+   #logo {
+      display:none;
    }
 }
